@@ -1,0 +1,2 @@
+# Running NEFORUPDATE from source
+PySide6>=6.8

@@ -1,0 +1,18 @@
+# Build output (release files go on GitHub Releases, not in the repository)
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Installer wizard art: release.cmd regenerates it (tools\make_installer_images.py)
+installer/wizard-*.bmp
